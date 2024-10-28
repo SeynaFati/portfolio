@@ -14,6 +14,9 @@ const Contact = () => {
           <a href="tel:+330123456789" className="contact-link">
             📞 Appeler
           </a>
+          <a href="/CV.pdf" target="_blank" className="contact-link">
+            Consultez mon CV
+          </a>
         </div>
       </div>
     </section>

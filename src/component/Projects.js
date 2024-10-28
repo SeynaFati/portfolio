@@ -47,16 +47,6 @@ const Projects = () => {
             Mes compétences s'élargissent en explorant de nouvelles technologies
             comme PHP.
           </div>
-          <div className="text-bubble bottom-right">
-            <a
-              href="/CV.pdf"
-              className="cv-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Consultez mon CV
-            </a>
-          </div>
         </div>
 
         <div className="revisited-mind-map">
