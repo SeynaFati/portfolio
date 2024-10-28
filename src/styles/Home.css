@@ -1,0 +1,51 @@
+.home-page {
+    position: relative; /* Nécessaire pour le positionnement absolu des enfants */
+    width: 100vw; /* Prend toute la largeur de la fenêtre */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    overflow: hidden; /* Empêche le débordement */
+  }
+  
+  .background-photo {
+    width: 100%; /* Prend toute la largeur */
+    height: 100%; /* Prend toute la hauteur */
+    object-fit: cover; /* Assure que l'image couvre entièrement le conteneur */
+    position: absolute; /* Permet de placer le texte au-dessus */
+    top: 0; /* Positionne l'image en haut */
+    left: 0; /* Positionne l'image à gauche */
+    z-index: 1; /* Met l'image derrière le texte */
+  }
+  
+  .name, .description, .explore-button {
+    position: absolute; /* Positionne le texte et le bouton au-dessus de l'image */
+    color: white; /* Change la couleur du texte */
+    z-index: 2; /* Assure que le texte est au-dessus de l'image */
+    left: 35px; /* Positionne le texte à gauche */
+  }
+  
+  .name {
+    bottom: 60%; /* Ajuste la position verticale de votre nom */
+    font-size: 3rem; /* Ajustez la taille de la police selon vos besoins */
+    color: black;
+    font-family: 'Lora';
+  }
+  
+  .description {
+    bottom: 55%; /* Ajuste la position verticale de la description */
+    font-size: 1.5rem; /* Ajustez la taille de la police selon vos besoins */
+    color: black;
+    font-family: 'Lora';
+  }
+  
+  .explore-button {
+    bottom: 50%; /* Ajuste la position verticale du bouton */
+    padding: 10px 25px; /* Espace autour du texte du bouton */
+    font-size: 1rem; /* Ajustez la taille de la police du bouton */
+    background-color: white; /* Couleur de fond du bouton */
+    color: black;
+    border: none; /* Retire la bordure par défaut */
+    border-radius: 5px; /* Bords arrondis */
+    cursor: pointer; /* Change le curseur au survol */
+    font-weight: bold;
+    font-family: 'Lora';
+    transition: 0.3s ease-in-out;
+  }

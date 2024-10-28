@@ -1,0 +1,258 @@
+.projects-section {
+  background-color: #f9f9f9;
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header-picture {
+  width: 30%;
+    max-width: 1000px;
+    height: 350px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+.dscrpt {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Projets */
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 30px;
+  PADDING: 40PX;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-picture {
+    height: 30px;
+    margin-bottom: 20px;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 5%;
+    padding: 5px;
+    background-color: white;
+}
+
+.project-details h3 {
+  font-size: 1.6rem;
+  color: black;
+  margin: 0;
+}
+
+.project-details p {
+  font-size: 1rem;
+  color: black;
+  margin-top: 10px;
+}
+
+.skills-section, .contact-section {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  PADDING: 40PX;
+}
+.project-item {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+
+.revisited-mind-map {
+  display: none;
+}
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-picture {
+  width: 400px; 
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1; 
+}
+
+.mind-map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Style pour les bulles de texte */
+.text-bubble {
+  position: absolute;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: black;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+
+.text-bubble.top-left {
+  top: 50%;
+  left: 10%;
+}
+
+.text-bubble.top-right {
+  top: 10%;
+  right: 10%;
+}
+
+.text-bubble.bottom-left {
+  bottom: 5%;
+  left: 10%;
+}
+
+.text-bubble.bottom-right {
+  bottom: 42%;
+  right: 27%;
+}
+.cv-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.text-bubble.bottom-right:hover {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 1285px) {
+  .revisited-mind-map {
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 0;
+    background-color: black;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .mind-map {
+    display: none;
+  }
+  .header-container {
+    flex-direction: column;
+    height: 600px;
+  }
+  .cv-links {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 730px) {
+  .project-list {
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center; 
+  }
+
+  .project-item img {
+    width: 45%; 
+    height: auto;
+    max-width: 300px; 
+  }
+
+  .header-container {
+    flex-direction: column;
+    height: 730px;
+  }
+  .project-details {
+    text-align: center;
+  }
+
+  .project-details h3 {
+    font-size: 1.1rem;
+    color: black;
+    margin: 0;
+}
+  .mind-map {
+    display: none;
+  }
+  
+  .skills-section {
+    margin-top: 50px;
+  }
+  
+  .header-picture {
+    border-radius: 1%;
+    margin-bottom: 50px;
+}
+.navbar {
+  display: block;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.navbar-links {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 10px 0; 
+}
+
+.navbar-links li a {
+  font-size: 18px; 
+}
+.text {
+  margin: 15px;
+}
+}

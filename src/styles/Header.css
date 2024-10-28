@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  background-color: cadetblue;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  }
+.header-picture {
+    width: 180px; /* Ajuste la taille selon ton besoin */
+    height: auto; /* Pour garder les proportions de l'image */
+    border-radius: 50%; /* Pour avoir une image arrondie */
+    margin-right: 20px; /* Espace entre l'image et le texte */
+  }
+  .header-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: 'Lora';
+  }
+  
+  .header-subtitle {
+    font-size: 2rem;
+    color: antiquewhite;
+    margin-top: 10px;
+    font-family: 'Lora';
+  }
