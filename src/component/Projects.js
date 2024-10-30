@@ -148,7 +148,7 @@ const Projects = () => {
                             • Gestion de l’authentification et de la sécurité.
 
                             • Optimisation et gestion des images."
-              githubLink="https://seynafati.github.io/S.Bluel"
+              githubLink="https://github.com/SeynaFati/S.Bluel"
               projectId="project2"
             />
           </div>
@@ -205,7 +205,7 @@ const Projects = () => {
             </p>
             <Collapse
               description="Problématiques rencontrées: Affichage dynamique des logements avec un système de tri par critères. Solutions apportées: Utilisation de React pour afficher dynamiquement les logements."
-              githubLink="https://seynafati.github.io/KASA1/"
+              githubLink="https://github.com/SeynaFati/KASA1"
               projectId="project4"
             />
           </div>
